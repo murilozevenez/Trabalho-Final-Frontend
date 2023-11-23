@@ -21,6 +21,30 @@
     background: #212529;
   }
   
+  #home {
+    height: 90vh;
+  }
+  
+  #footer {
+    height: 80px;
+    width: 100%;
+    background: #212529;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #footer>ul {
+    width: 90%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+  
+  }
+  
   #logo {
     width: 10%;
     padding-left: 20px;
